@@ -44,7 +44,8 @@ button:hover{
 }
 
 .display{
-   height: 100px;
+   min-height: 100px;
+   max-height: auto;
    background-color: rgba(0, 0, 0, 0.5);
    color: #fff;
    display: flex;
@@ -54,6 +55,7 @@ button:hover{
    width: 320px;
    padding: 10px;
    max-width: 300px;
+   overflow-wrap: break-word;
 }
 
 .current-number{
@@ -62,4 +64,5 @@ button:hover{
 
 .previous-number{
    opacity: 0.8;
+   font-size: 20px;
 }
