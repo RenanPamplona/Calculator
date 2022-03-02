@@ -1,0 +1,65 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(45deg, #fd5900, #003bfc);
+   height: 100vh;
+   font-family: 'Fredoka', sans-serif;
+}
+
+.calculator{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.buttons{
+   display: flex;
+   flex-direction: column;
+}
+
+button{
+   height: 80px;
+   width: 80px;
+   font-size: 35px;
+   font-family: 'Fredoka', sans-serif;
+   font-weight: 600;
+   background-color: rgba(255, 255, 255, 0.5);
+   color: #fff;
+   border: 0.5px solid #fff
+}
+
+button:hover{
+   background-color: rgba(255, 255, 255, 0.8);
+   color: rgb(80, 80, 80);
+}
+
+.is-two{
+   width: 160px;
+}
+
+.row{
+   display: flex;
+}
+
+.display{
+   height: 100px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: end;
+   width: 320px;
+   padding: 10px;
+   max-width: 300px;
+}
+
+.current-number{
+   font-size: 50px;
+}
+
+.previous-number{
+   opacity: 0.8;
+}
