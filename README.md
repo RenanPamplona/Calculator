@@ -9,6 +9,7 @@ It has all the basic functions as a normal calculator does, such as:
 - Automatically making the operation if the user already has a current operand and press an operation button
 
 &nbsp;&nbsp;
+Link: https://calculator-weld-six.vercel.app
 ## Preview
 
 ![calculator preview](./img/calculator.png "Calculator")
